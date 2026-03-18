@@ -2,10 +2,16 @@
 
 **DiracQ** is a Wolfram Language (Mathematica) package for symbolic manipulation of non-commuting quantum operators. It handles algebra involving bosonic/fermionic operators, canonical variables (q, p), angular momentum, Pauli matrices, Hubbard operators, and Dirac notation (Bra/Ket).
 
-Updated to work with **Mathematica 14.3** and **wolframscript** (command-line execution).
+Updates:
+- Compatibility with Mathematica 14.3
+- Support for wolframscript (command-line execution)
+- Added tests using Claude
 
-Authors: John Wright and B. Sriram Shastry (UCSC, 2013/2015).
-License: GNU GPL v2.
+Original Authors:
+- John Wright
+- B. Sriram Shastry
+
+This project is licensed under the GNU General Public License v2.0 (GPLv2), in accordance with the original distribution.
 
 ---
 
@@ -93,28 +99,6 @@ wolframscript -file examples/test_bosonic_operators.wls
 | `test_organize_humanize.wls` | Organize/Humanize round-trip conversion |
 | `test_operator_manipulation.wls` | Operator reordering and simplification |
 | `test_user_defined_operators.wls` | User-defined operators and custom commutation rules |
-
----
-
-## Typical Applications
-
-- Quantum harmonic oscillators
-- Second quantization
-- Bosonic and fermionic operator algebra
-- Spin systems and angular momentum
-- Many-body Hamiltonians
-- Quantum field theory calculations
-
----
-
-## Documentation
-
-Detailed documentation is in `docs_pdf/`:
-
-- **Getting_Started_and_Tutorial_V1.nb** -- Interactive tutorial notebook
-- **Examplebook_V1.nb** -- Worked examples
-- **Glossary_V1.nb** -- Complete function reference
-- **Introduction.pdf** -- Overview and motivation
 
 ---
 
