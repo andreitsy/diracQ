@@ -34,7 +34,7 @@ http://www.gnu.org/copyleft/gpl.html
 
 
 (* Compatibility fix for Mathematica 14+ where Commutator became a built-in Protected symbol *)
-If[$VersionNumber >= 14,
+If[$VersionNumber >= 13,
 	Quiet[
 		Unprotect[Commutator];
 		ClearAll[Commutator];
