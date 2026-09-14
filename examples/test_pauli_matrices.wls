@@ -4,7 +4,7 @@
 (* ProductQ[H,H] should give A^2 + B^2 + C^2 *)
 
 scriptDir = If[$InputFileName =!= "", DirectoryName[$InputFileName], Directory[]];
-Get[FileNameJoin[{scriptDir, "DiracQ", "DiracQV1.m"}]];
+Get[FileNameJoin[{ParentDirectory[scriptDir], "DiracQ", "DiracQV1.m"}]];
 
 passed = 0;
 failed = 0;

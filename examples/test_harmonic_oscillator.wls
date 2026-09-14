@@ -3,7 +3,7 @@
 (* Based on Examplebook Section (I) - creation/annihilation operators *)
 
 scriptDir = If[$InputFileName =!= "", DirectoryName[$InputFileName], Directory[]];
-Get[FileNameJoin[{scriptDir, "DiracQ", "DiracQV1.m"}]];
+Get[FileNameJoin[{ParentDirectory[scriptDir], "DiracQ", "DiracQV1.m"}]];
 
 passed = 0;
 failed = 0;
