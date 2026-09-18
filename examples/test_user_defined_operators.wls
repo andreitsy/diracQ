@@ -3,7 +3,7 @@
 (* Based on Introduction.pdf description of extensibility *)
 
 scriptDir = If[$InputFileName =!= "", DirectoryName[$InputFileName], Directory[]];
-Get[FileNameJoin[{scriptDir, "DiracQ", "DiracQV1.m"}]];
+Get[FileNameJoin[{ParentDirectory[scriptDir], "DiracQ", "DiracQV1.m"}]];
 
 passed = 0;
 failed = 0;
